@@ -30,8 +30,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: minhonk
-
+          tags: minhonk/test-docker:abc
 
   pull-and-up:
     name: Pull new image and re run with the new version
